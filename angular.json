@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Gifs-app": {
+    "gifs-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Gifs-app:build:production"
+              "buildTarget": "gifs-app:build:production"
             },
             "development": {
-              "buildTarget": "Gifs-app:build:development"
+              "buildTarget": "gifs-app:build:development"
             }
           },
           "defaultConfiguration": "development"
